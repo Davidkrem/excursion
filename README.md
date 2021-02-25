@@ -21,5 +21,5 @@ This work is re-creation a *Code Academy* project using additional CSS and perso
 ### **Project status**
 On-going
 
-### **View Project**
+### **View My Project**
 https://davidkrem.github.io......
