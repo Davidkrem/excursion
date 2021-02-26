@@ -1,8 +1,6 @@
-/* black background color requested for app theme
-*/
+
 body {
     background-color: black;
-    opacity: .8;
     text-align: center;
   }
 
@@ -12,15 +10,45 @@ body {
     font-weight: normal;
     font-size: 50px;
     color: white;
+
+  }
+
+  h3 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 42px;
+      font-weight: normal;
+      background: linear-gradient(to right, white, aquamarine 50%, white 50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 900ms ease;
+  }
+
+h3:hover {
+        background-position: 0 100%;
+      }
+
+  h4 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 21px;
+      color: grey;
+      font-weight: lighter;
   }
   
   h6 {
     color: aquamarine;
-    font-size: 17px;
+    font-size: 24px;
     font-family: fantasy, Verdana, sans-serif;
     padding: animation: name 1s linear;
-    letter-spacing: 7px;
+    letter-spacing: 9px;
+    text-transform:capitalize;
+    padding-top: 5px;
   }
+
+
 
   /*Code for underline animation on h6 a */
   a {
@@ -34,11 +62,11 @@ body {
   }
   a:after {
     background: none repeat scroll 0 0 transparent;
-    bottom: 39px;
+    bottom: 56px;
     content: '';
     color: aquamarine;
     display: block;
-    height: 1px;
+    height: 3px;
     left: 50%;
     position: relative;
     background: aquamarine;
@@ -49,15 +77,46 @@ body {
     width: 100%;
     left: 0;
   }
+/*brightness added to video */
+  .iPhone{
+  filter:brightness(150%);
+  }
   
-  /* Fade in animation on h1 work "hidden". 4 sec completion */
+  .camping-img {
+      border-radius: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 65%; 
+  }
+
+  .mini-img {
+      padding-top: 47px;
+
+  }
+
+  .time {
+     color: aquamarine;
+      font-size: 12px;
+      font-family: fantasy;
+      padding-top: 12px;
+  }
+  
+  footer {
+      text-align: center;
+      color:gray;
+      font-size: 12px;
+      padding-top: 38px;
+  }
+
+  /* Fade in animation on h1 word "hidden". 4 sec completion */
 
   .fade-in {
-    animation: fadeIn ease 4s;
-    -webkit-animation: fadeIn ease 4s;
-    -moz-animation: fadeIn ease 4s;
-    -o-animation: fadeIn ease 4s;
-    -ms-animation: fadeIn ease 4s;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
     }
     @keyframes fadeIn {
     0% {opacity:0;}
@@ -83,3 +142,4 @@ body {
     0% {opacity:0;}
     100% {opacity:1;}
     }
+
