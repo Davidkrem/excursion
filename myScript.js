@@ -1,5 +1,5 @@
 (function() {
-  // Init
+  // Init 
   var container = document.getElementById("container"),
       inner = document.getElementById("inner");
 
