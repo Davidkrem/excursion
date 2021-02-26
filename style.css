@@ -1,0 +1,85 @@
+/* black background color requested for app theme
+*/
+body {
+    background-color: black;
+    opacity: .8;
+    text-align: center;
+  }
+
+  
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+  }
+  
+  h6 {
+    color: aquamarine;
+    font-size: 17px;
+    font-family: fantasy, Verdana, sans-serif;
+    padding: animation: name 1s linear;
+    letter-spacing: 7px;
+  }
+
+  /*Code for underline animation on h6 a */
+  a {
+    color: #fff;
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+  }
+  a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 39px;
+    content: '';
+    color: aquamarine;
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: relative;
+    background: aquamarine;
+    transition: width 0.6s ease 0s, left 0.6s ease 0s;
+    width: 0;
+  }
+  a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  
+  /* Fade in animation on h1 work "hidden". 4 sec completion */
+
+  .fade-in {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
