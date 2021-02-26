@@ -13,13 +13,15 @@ This work is re-creation a *Code Academy* project using additional CSS and perso
 
 - HTML
 - CSS
+- JavaScript
   
 ### **Sources**
 [Link to the original Code Academy design spec to compare to my finished project](https://content.codecademy.com/programs/freelance-one/excursion/mocks/excursion_redline.png)
 
   
 ### **Project status**
-On-going
+Completed
 
 ### **View My Project**
-https://davidkrem.github.io......
+https://davidkrem.github.io/excursion/
+
