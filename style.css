@@ -40,12 +40,12 @@ h3:hover {
   
   h6 {
     color: aquamarine;
-    font-size: 24px;
+    font-size: 19px;
     font-family: fantasy, Verdana, sans-serif;
     padding: animation: name 1s linear;
-    letter-spacing: 9px;
+    letter-spacing: 10px;
     text-transform:capitalize;
-    padding-top: 5px;
+    padding-top: 2px;
   }
 
 
