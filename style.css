@@ -18,13 +18,13 @@ body {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 42px;
       font-weight: normal;
-      background: linear-gradient(to right, white, aquamarine 50%, white 50%);
+      background: linear-gradient(to right, aquamarine, rgb(21, 117, 85) 50%,white 50%);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-size: 200% 100%;
       background-position: 100%;
-      transition: background-position 900ms ease;
+      transition: background-position 700ms ease;
   }
 
 h3:hover {
@@ -42,7 +42,7 @@ h3:hover {
     color: aquamarine;
     font-size: 19px;
     font-family: fantasy, Verdana, sans-serif;
-    padding: animation; name 1s linear;
+    padding: animation: name 1s linear;
     letter-spacing: 10px;
     text-transform:capitalize;
     padding-top: 2px;
