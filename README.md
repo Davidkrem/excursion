@@ -1,7 +1,7 @@
 # **Excursion**
 
 ### **Introduction**
-This work is re-creation a *Code Academy* project using additional CSS and personal color/style choices.
+This work is a re-creation clone of a *Code Academy* project using additional CSS, JavaScript and personal color/style choices. Project also contains CSS fade-ins and color hovering. 
 - [](#)
 
     - [**Technologies**](#technologies)
