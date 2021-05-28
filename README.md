@@ -1,7 +1,7 @@
 # **Excursion**
 
 ### **Introduction**
-This work is a re-creation clone of a *Code Academy* project using additional CSS, JavaScript and personal color/style choices. This project also contains underline animation, CSS text fade-ins and color hovering. 
+This work is a re-creation clone of a *Codecademy* project using additional CSS, JavaScript and personal color/style choices. This project also contains underline animation, CSS text fade-ins and color hovering. 
 - [](#)
 
     - [**Technologies**](#technologies)
@@ -16,7 +16,7 @@ This work is a re-creation clone of a *Code Academy* project using additional CS
 - JavaScript
   
 ### **Sources**
-[Link to the original Code Academy design spec to compare to my finished project](https://content.codecademy.com/programs/freelance-one/excursion/mocks/excursion_redline.png)
+[Link to the original Codecademy design spec to compare to my finished project](https://content.codecademy.com/programs/freelance-one/excursion/mocks/excursion_redline.png)
 
   
 ### **Project status**
